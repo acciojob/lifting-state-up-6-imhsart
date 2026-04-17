@@ -10,7 +10,7 @@ const App = () => {
   ])
 
   const handleComplete = (idx) => {
-    setTodos(todos.map((val,index) => index === idx ? {...val, completed:true} : val))
+    setTodos(prev => prev.map((val,index) => index === idx ? {...val, completed:true} : val))
   }
 
   return (
