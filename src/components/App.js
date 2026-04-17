@@ -4,8 +4,8 @@ import './../styles/App.css';
 import ChildComponent from './TodoList'
 const App = () => {
   const [todos, setTodos] = useState([
-    {todo:'Learn React', completed:false}, 
-    {todo:'Build a React app', completed:true},
+    {todo:'Learn React', completed:true}, 
+    {todo:'Build a React app', completed:false},
     {todo:'Deploy the React app', completed:false}
   ])
 
