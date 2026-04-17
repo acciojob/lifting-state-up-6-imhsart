@@ -5,8 +5,8 @@ import ChildComponent from './TodoList'
 const App = () => {
   const [todos, setTodos] = useState([
     {todo:'Learn React', completed:false}, 
-    {todo:'Build a React app', completed:true},
-    {todo:'Deploy the React app', completed:true}
+    {todo:'Build a React app', completed:false},
+    {todo:'Deploy the React app', completed:false}
   ])
 
   const handleComplete = (idx) => {
