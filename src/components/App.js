@@ -6,7 +6,7 @@ const App = () => {
   const [todos, setTodos] = useState([
     {todo:'Learn React', completed:true}, 
     {todo:'Build a React app', completed:true},
-    {todo:'Deploy the React app', completed:true}
+    {todo:'Deploy the React app', completed:false}
   ])
 
   const handleComplete = (idx) => {
