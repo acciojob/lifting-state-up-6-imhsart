@@ -8,7 +8,7 @@ const ChildComponent = ({todos, handleComplete}) => {
       <ul>
         {
           todos.map((item,index) => {
-            return <li key={`item-${index}`} >{item.todo}{item.completed ? null : <button onClick={() => handleComplete(index)}>Complete</button>}</li>
+            return <li key={`item-${index}`}>{item.todo}{item.completed ? null : <button onClick={() => handleComplete(index)}>Complete</button>}</li>
           })
         }
       </ul>
